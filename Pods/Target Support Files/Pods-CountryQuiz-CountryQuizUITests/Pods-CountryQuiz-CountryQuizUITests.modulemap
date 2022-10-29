@@ -1,0 +1,6 @@
+framework module Pods_CountryQuiz_CountryQuizUITests {
+  umbrella header "Pods-CountryQuiz-CountryQuizUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
