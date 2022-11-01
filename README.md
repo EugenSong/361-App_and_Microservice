@@ -1,4 +1,4 @@
-# Microservice: How to request and receive data + UML
+# Communication Contract: How to request and receive data + UML
 
 ## Request
 To request data, listen to real-time changes from the collection located in Firebase's Cloud Firestore from the app. 
