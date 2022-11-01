@@ -1,14 +1,12 @@
 
 import threading
-from time import sleep
 import time
-from turtle import update
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
 
 # Use the application default credentials
-cred = credentials.Certificate('firebase-sdk.json')
+cred = credentials.Certificate('./py_firebase/firebase-sdk.json')
 
 app = firebase_admin.initialize_app(cred)
 
@@ -62,11 +60,11 @@ def on_snapshot(doc_snapshot, changes, read_time):
                 'avg_putts':avg_putts_per_round,
                 'avg_strokes':avg_strokes_per_round}, merge=True)
                 
-            print(tally)
-            print(putts)
-            print(strokes)
-            print(avg_putts_per_round)
-            print(avg_strokes_per_round)   
+            # print(tally)
+            # print(putts)
+            # print(strokes)
+            # print(avg_putts_per_round)
+            # print(avg_strokes_per_round)   
         elif change.type.name == 'MODIFIED':
             print(f'Modified city: {change.document.id}')
             tally = 0
