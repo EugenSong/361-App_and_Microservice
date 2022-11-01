@@ -6,9 +6,11 @@
 //
 
 import UIKit
+import Firebase
 
 class QuizViewController: UIViewController {
     
+    var ref: DatabaseReference!
     
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
@@ -22,7 +24,6 @@ class QuizViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
         // Do any additional setup after loading the view.
         updateUI()
     }
@@ -68,6 +69,10 @@ class QuizViewController: UIViewController {
     }
     
     @objc func updateUI () {
+        
+        ref = Database.database().reference()
+        self.ref.child("question").setValue(brain.getQuestionText())
+        self.ref.child("keyword").setValue(brain.getQuestionKeyword())
         
         questionLabel.text = brain.getQuestionText()
         

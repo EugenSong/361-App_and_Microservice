@@ -7,6 +7,9 @@ target 'CountryQuiz' do
 
   # Pods for CountryQuiz
     pod 'Firebase/Core'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Storage'
+    pod 'Firebase/Database'
 
 
   target 'CountryQuizTests' do
