@@ -1,7 +1,7 @@
 # Communication Contract: How to request and receive data + UML
 
 ## Request
-To request data, listen to real-time changes from the collection located in Firebase's Cloud Firestore from the app. 
+To request data, listen to real-time changes from the collection located in Firebase's Cloud Firestore from the app. This will be accomplished by first creating a thread Event, then by using the callback function, on_snapshot(), to listen to changes in the database.
     
 Example call:
 <img src= "https://i.imgur.com/KkK1jK7.png)"><br>
