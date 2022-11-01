@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "myscorecard-6388b",
+  "private_key_id": "95bd563aadc3993997b67bc540642a1024dd8740",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDaPfuVcsDUOSDa\nUeg7cR3k0RkWORlp/Fdsi60fsdfp4I00apDLwNH4+Sguq0r0SouP39s8jAcMUX2v\nYqfjzHPev/WrRUsCFf53hIbl3FOKigt61t5f6XpABTscIpkmgO6PXOxRwyPuJv70\nk30t9T0cNkQk36FkE/hM0BmdF25E2UQSRn7vKYMS4HW9V+IVRur3zGIt4QHVV4CX\ng68byS8f8TQHF2AOD4e2SE9rTL+eBw6K2aiBGy5UShIRPf4Q1f90FqrB/9ziu5Mg\nWEJMqCDP/FcyNHCtN2YBDts6hE7xflJqoyIaiKnAz8Gtk2wkofsaObLLt+yHp5cr\nq1TbtLGDAgMBAAECggEAOYj8sfYaQvi6ogPU6xLTtDax2+t6uTfG3n1mS0RJ7UT/\nRPHRMX4ofPBGuSL8dDHQ4EG+XRR3aTZ0oY+rPkFwzKkjvZ7bevXMa7rbC29N8Oia\nxSwvXO7DBWy7nBu872svOUlgnd+JsefC8DyP1FViYnUl+uif9i/TloCIOCNstSZr\nLyvT/VG+QJSDYNF76wq05m+jCv00GZyKMBtDQUtl9pVPzWH34KKgLo5FrGrG6CQw\n/FrJO/ovykrEdKQktmRzHrXYY+nt+TOq7/DPtneePAzyoiiypOP6DcGpW5WBY6TB\nJzSc3+l79J4lhSsAEKkg3EyLnScFnc4cDiPw1Z/AyQKBgQD/HQpUi3bxReTby7UW\nV4QmNv7IWzhOVqFjnC32qNt4ZqTPOuL1+9aW11ZQEd4thSnrhJarEl1jzIHr3fh1\nkbNtO07hRejlDcX6KQthjYa9L2SxAVQTfW2wr2puF1ulef+6dDBK+GhuhgZ7wJQ/\nTyTSsAZT/LMBRHljmh5/BodWmwKBgQDbACPe7Kth2wwuoI1aKzvrl/tbH4Dk4fQL\nLVIR9vmbo4GJVVqZ5/yUToC7tQYP16rxRp136b7anzbIpblHLO+BHP3h3LifbpRa\nDTX9qGOPB/XO6AYgwSAsaCGZKYwGX9KBSxgMWv7X40h9UHZ0onENVoKkcgiLj++2\nhkgqnUlLOQKBgCN9SbubLy+/VmgRPZ7fC945FlaPAhU7zfXKe0ZuFSH5vYGqonov\nz5lqWXKIGc1hUgSWjFM+GcnRYF2MoozQeRKABqgmDpEWymzTmua2RoE4/5v0IFsZ\nvtGuhXLNQw2RHDc3BKTZS8XcVTiQAM+R1gCNRkQWylwpx21IumdXZCpzAoGBAKRb\nsZAfrOvO+pCP3CX85oaE1JbpyNF+Jqqww7RJ18EP8CrCjTGOosgnNoQpcrg3Esrr\nRUj2e08WSIZDog6h0cnjmUKGZWT6F4qR+aA6XSW+QqObDOZOKrhJGlYZkUZDafex\nBQZY0IPzxraNyaj1NMVe1MNX9cPQLYadttGMo7I5AoGBAJw0j/nOIH/HloXBwvqR\n09quTlpEQaOSU7t3tULQtQj68eCvnfGCEcbxk3g1WMQayisQ1tx2LKCyFkvecfhG\nCss24tCjQJ9CtS2vg9dYnSJqzVI/Db0kfFqtcW4CgwpfrNdnvutCYMQywRn7M1Ky\nxxgsvQIlXtitmxmW9plagAVF\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-o5dnl@myscorecard-6388b.iam.gserviceaccount.com",
+  "client_id": "114054916309421036357",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-o5dnl%40myscorecard-6388b.iam.gserviceaccount.com"
+}
